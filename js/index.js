@@ -1,5 +1,5 @@
 import '../css/styles.css';
-import Swap from "../js/currency.js";
+import Swap from "../js/swap.js";
 
 window.addEventListener("load", start)
 
