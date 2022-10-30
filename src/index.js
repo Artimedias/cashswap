@@ -13,17 +13,17 @@ function start()
 }
 
 function mainswap() {
-  let money1 = document.getElementById("moneyOne");
-  let money2 = document.getElementById("moneyTwo");
-  let money3 = document.getElementById("moneyAmount");
+  let money1 = document.getElementById("moneyOne").value;
+  let money2 = document.getElementById("moneyTwo").value;
+  let money3 = document.getElementById("moneyAmount").value;
 
   let promise = Swap.exchange(money1, money2);
   let output;
 
   promise.then(function(response) {
     if (response.result==="success") {
-      const apiResult = JSON.parse(response);
-      output = ("The exchange rate between" + money1 + " and " + money2 + " is " + `${apiResult.conversion_rate}%` + "\n" + money3 + " " + money1 + " is equal to " + (`${apiResult.conversion_rate}` * money3) + " " + money2);
+      const apiResult = response;
+      output = ("The exchange rate between " + money1 + " and " + money2 + " is " + `${apiResult.conversion_rate}%` + "\n" + money3 + " " + money1 + " is equal to " + (`${apiResult.conversion_rate}` * money3) + " " + money2);
       document.getElementById("showRate").innerHTML = (output);
     } else {
           
