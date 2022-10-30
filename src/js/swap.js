@@ -1,7 +1,5 @@
 export default class Swap {   
-  static exchange(money1, money2) {
-    //let request = new XMLHttpRequest();
-      
+  static exchange(money1, money2) {      
     return fetch(`https://v6.exchangerate-api.com/v6/${process.env.API_KEY}/pair/${money1}/${money2}`)
       .then(function(response) {
         if (!response.ok) {
