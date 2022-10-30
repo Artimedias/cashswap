@@ -18,7 +18,7 @@
 ## Setup Instructions
 * _Clone this repository to wherever you wish_
 * _Navigate to wherever you have cloned the repo to and open your terminal there_
-* Enter "npm install" into your terminal_
+* _Enter "npm install" into your terminal_
 * _If you already have an API key, go ahead and enter touch .env in your terminal. Open the .env as a .txt file, then type in API_KEY=yourapikeyhere on the first line of the .env file_
 * _Obviously, do not actually type in yourapikeyhere. If you do not have an API key, please refer to the How to Get an API KEY section of this readme_
 * _Enter the command "npm run start", and it will open the progam on your localhost. From there you will be able to freely swap a theoretical amount of cash between currencies._
@@ -38,9 +38,10 @@
 
 ## License
 
-_If you have any questions or concerns please contact me at ogon318@gmail.com
-You are also welcome to make any contributions if you'd like_
+Copyright 2022 Brett Roper
 
-*_MIT_
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-Copyright (c) _2022_ _Oscar Gonzalez_
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
